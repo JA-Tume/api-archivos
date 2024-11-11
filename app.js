@@ -11,7 +11,8 @@ app.use(express.json());
 // Configuración de CORS
 app.use(
   cors({
-    origin: "http://sistema_correo.test", // Permitir solicitudes desde este origen
+    // origin: "http://sistema_correo.test", // Permitir solicitudes desde este origen
+    origin: "https://testing.aguasdelimanorte.com", // Permitir solicitudes desde este origen
     optionsSuccessStatus: 200,
   })
 );
